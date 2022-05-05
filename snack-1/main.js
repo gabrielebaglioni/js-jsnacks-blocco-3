@@ -5,9 +5,8 @@ let somma = 0;
 while(somma < 50 ){
    let numeriUtente = Number(prompt("inserisci dei numeri"));
    while(isNaN(numeriUtente)){
-
+     numeriUtente = Number(prompt("UN NUMERO ARABO"))
    }
-
    container.push(numeriUtente);
    somma = somma + numeriUtente;
 }
