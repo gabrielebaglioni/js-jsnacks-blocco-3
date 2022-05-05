@@ -3,7 +3,11 @@
 const container = []
 let somma = 0;
 while(somma < 50 ){
-   const numeriUtente = Number(prompt("inserisci dei numeri"));
+   let numeriUtente = Number(prompt("inserisci dei numeri"));
+   while(isNaN(numeriUtente)){
+
+   }
+
    container.push(numeriUtente);
    somma = somma + numeriUtente;
 }
