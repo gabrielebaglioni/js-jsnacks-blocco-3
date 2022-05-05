@@ -6,8 +6,18 @@ while(somma < 50 ){
    let numeriUtente = Number(prompt("inserisci dei numeri"));
    while(isNaN(numeriUtente)){
      numeriUtente = Number(prompt("UN NUMERO ARABO"))
+     console.log(container, somma)
    }
-   container.push(numeriUtente);
+   if(somma > 50){
+      // console.log("la somma è maggiore di 50");
+      alert("la somma è maggiore di 50")
+   }else{
+      container.push(numeriUtente);
    somma = somma + numeriUtente;
+   }
+  
 }
-console.log(container, somma)
+if(somma > 50){
+   // console.log("la somma è maggiore di 50");
+   alert("la somma è maggiore di 50")
+}
