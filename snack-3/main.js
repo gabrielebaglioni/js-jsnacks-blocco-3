@@ -10,11 +10,11 @@ const numeri = [1, 2, 3, 5, 6, 7, 8, 9, 10]
 for(let i = 0; i < numeri.length; i++){
    //pari green
    if(numeri[i] % 2 === 0){
-      red.innerHTML += numeri[i];
+      red.innerHTML += numeri[i] + " ";
       red.style.color = "red";
    }
    else{
-      green.innerHTML += numeri[i];
+      green.innerHTML += numeri[i] + " ";
       green.style.color = "green";
    }
    
